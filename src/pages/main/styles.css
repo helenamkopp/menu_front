@@ -1,0 +1,50 @@
+.plates-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.plates-list article {
+    background: rgb(240, 232, 232);
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 35px;
+    margin-bottom: 18px;
+}
+
+.plates-list article p {
+    font-size: 14px;
+    color: rgb(104, 4, 4);
+    margin-top: 5px;
+    line-height: 22px;
+}
+
+.plates-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.plates-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #461305;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.plates-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.plates-list .actions button:hover {
+    opacity: 0.7;
+}
+
+.plates-list .actions button[disabled]:hover  {
+    opacity: 0.5;
+}
